@@ -179,9 +179,9 @@ ul.not-complete li:before {
     .right {
         width: 100%;
     }
-  }
+}
   
-  /* Tablet Styles */
+/* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
     #section-content {
         font-size: 20px;
