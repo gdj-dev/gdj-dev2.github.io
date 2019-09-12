@@ -9,6 +9,10 @@
     color: #373737;
 }
 
+svg {
+    fill: #6d7993 !important;
+}
+
 #menu-item {
     margin: 1% auto;
 }

@@ -1,4 +1,5 @@
 import React, { Component} from "react";
+import ScrollUpButton from "react-scroll-up-button";
 import {hot} from "react-hot-loader";
 import logo from './images/placeholder.png';
 import zari from './images/zari.JPG';
@@ -10,6 +11,7 @@ class App extends Component{
   render(){
     return(
       <div className="App">
+        <ScrollUpButton style={{ backgroundColor: "transparent", height: "40px" }} className="up"/>
         <div className="menu">
             <h3 id="menu-item"><a href="#about">About</a></h3>
             <h3 id="menu-item"><a href="#team">Team</a></h3>
@@ -23,6 +25,7 @@ class App extends Component{
             <h3 className="text" id="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
             <h2 className="text" id="section-subtitle">System Requirements</h2>
             <h3 className="text" id="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+            <h2 className="text" id="section-subtitle">Link to Project Report</h2>
         </div>
         <div className="team" id="team">
             <h1 className="text" id="section-title">Meet the Team</h1>
